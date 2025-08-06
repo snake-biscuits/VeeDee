@@ -1,0 +1,15 @@
+<?xml version="1.0" standalone="no"?>
+<svg width="128" height="80" version="1.1" xmlns="http://www.w3.org/2000/svg">
+  <!-- TODO: javascript animation for transferring tape across -->
+  <!-- grow and shrink spools, adjust path end points -->
+  <!-- calculate spool size based on total audio length -->
+  <rect x="0" y="0" rx="4" ry="4" width="128" height="80" fill="#CCC2" stroke="none"/>
+  <rect x="0" y="0" rx="4" ry="4" width="128" height="80" fill="none" stroke="#222"/>
+  <!-- left spool -->
+  <circle cx="38" cy="33" r="18" stroke-width="22" fill="none" stroke="#430" />
+  <!-- right spool -->
+  <circle cx="90" cy="33" r="8" stroke-width="2" fill="none" stroke="#430" />
+  <!-- bottom trapezoid -->
+  <path d="M30,80 L38,66 L90,66 L98,80" fill="none" stroke="#222"/>
+  <!-- TODO: tape path -->
+</svg>
