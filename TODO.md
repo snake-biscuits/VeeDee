@@ -103,3 +103,7 @@ def reader():
 player.play('python://foo')
 player.wait_for_playback()
 ```
+
+
+## Testing
+`bigbuckbunny.mp4`
